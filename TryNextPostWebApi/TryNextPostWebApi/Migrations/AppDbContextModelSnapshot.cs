@@ -74,7 +74,47 @@ namespace TryNextPostWebApi.Migrations
 
                     b.HasKey("MailSettingsId");
 
-                    b.ToTable("Mail_Settings");
+                    b.ToTable("MAIL_SETTINGS");
+                });
+
+            modelBuilder.Entity("TryNextPostWebApi.Entities.MenueItemMaster", b =>
+                {
+                    b.Property<long>("MenueItemId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bigint");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<long>("MenueItemId"));
+
+                    b.Property<string>("CreatedBy")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime?>("CreatedOn")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("CssClass")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Description")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<long>("ParentId")
+                        .HasColumnType("bigint");
+
+                    b.Property<string>("Title")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("UpdatedBy")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime?>("UpdatedOn")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Url")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("MenueItemId");
+
+                    b.ToTable("MENUE_ITEM_MASTER");
                 });
 
             modelBuilder.Entity("TryNextPostWebApi.Entities.RoleMaster", b =>
@@ -102,7 +142,7 @@ namespace TryNextPostWebApi.Migrations
 
                     b.HasKey("RoleId");
 
-                    b.ToTable("Role_Master");
+                    b.ToTable("ROLE_MASTER");
                 });
 
             modelBuilder.Entity("TryNextPostWebApi.Entities.UserMaster", b =>
@@ -184,7 +224,7 @@ namespace TryNextPostWebApi.Migrations
 
                     b.HasKey("UserId");
 
-                    b.ToTable("User_Master");
+                    b.ToTable("USER_MASTER");
                 });
 #pragma warning restore 612, 618
         }

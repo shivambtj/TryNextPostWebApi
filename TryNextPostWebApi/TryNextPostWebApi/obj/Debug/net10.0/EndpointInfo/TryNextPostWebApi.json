@@ -291,6 +291,37 @@
         }
       }
     },
+    "/api/MenueItemMaster/SaveMenueData": {
+      "post": {
+        "tags": [
+          "MenueItemMaster"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MenueItemMasterDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MenueItemMasterDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/MenueItemMasterDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/RoleMaster/SaveRoleData": {
       "post": {
         "tags": [
@@ -482,6 +513,54 @@
         },
         "additionalProperties": false
       },
+      "MenueItemMasterDto": {
+        "type": "object",
+        "properties": {
+          "menueItemId": {
+            "type": "integer",
+            "format": "int64"
+          },
+          "parentId": {
+            "type": "integer",
+            "format": "int64"
+          },
+          "url": {
+            "type": "string",
+            "nullable": true
+          },
+          "title": {
+            "type": "string",
+            "nullable": true
+          },
+          "description": {
+            "type": "string",
+            "nullable": true
+          },
+          "cssClass": {
+            "type": "string",
+            "nullable": true
+          },
+          "createdBy": {
+            "type": "string",
+            "nullable": true
+          },
+          "createdOn": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "updatedBy": {
+            "type": "string",
+            "nullable": true
+          },
+          "updatedOn": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
       "RoleMasterDto": {
         "type": "object",
         "properties": {
@@ -626,6 +705,9 @@
     },
     {
       "name": "MailSettings"
+    },
+    {
+      "name": "MenueItemMaster"
     },
     {
       "name": "RoleMaster"

@@ -174,12 +174,6 @@ namespace TryNextPostWebApi.Controllers
             }
         }
 
-        //[HttpPost]
-        //public async Task<IActionResult> ForgetPassword([FromBody])
-        //{
-
-        //}
-
         [HttpPost("forgetPassword")]
         public async Task<IActionResult> ForgetPassword(string emailId)
         {
@@ -306,6 +300,8 @@ namespace TryNextPostWebApi.Controllers
                 return BadRequest(ex.Message);
             }
         }
+
+
 
     }
 }

@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace TryNextPostWebApi.Entities
 {
-    [Table("User_Master")]
+    [Table("USER_MASTER")]
     public class UserMaster
     {
         [Key]

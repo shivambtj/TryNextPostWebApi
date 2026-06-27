@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zESc6Np7tKA=",
+  "dgSpecHash": "zCZ7l43/I9w=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Dell\\OneDrive\\Desktop\\19062-026\\TryNextPostWebApi19062026_afterjwtand log\\TryNextPostWebApi\\TryNextPostWebApi\\TryNextPostWebApi.csproj",
+  "projectFilePath": "C:\\Users\\Dell\\OneDrive\\Desktop\\19062-026\\updated code trynextpost\\TryNextPostWebApi\\TryNextPostWebApi\\TryNextPostWebApi\\TryNextPostWebApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Dell\\.nuget\\packages\\azure.core\\1.47.1\\azure.core.1.47.1.nupkg.sha512",
     "C:\\Users\\Dell\\.nuget\\packages\\azure.identity\\1.14.2\\azure.identity.1.14.2.nupkg.sha512",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Dell\\OneDrive\\Desktop\\19062-026\\TryNextPostWebApi19062026_afterjwtand log\\TryNextPostWebApi\\TryNextPostWebApi\\TryNextPostWebApi.csproj": {}
+    "C:\\Users\\Dell\\OneDrive\\Desktop\\19062-026\\updated code trynextpost\\TryNextPostWebApi\\TryNextPostWebApi\\TryNextPostWebApi\\TryNextPostWebApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Dell\\OneDrive\\Desktop\\19062-026\\TryNextPostWebApi19062026_afterjwtand log\\TryNextPostWebApi\\TryNextPostWebApi\\TryNextPostWebApi.csproj": {
+    "C:\\Users\\Dell\\OneDrive\\Desktop\\19062-026\\updated code trynextpost\\TryNextPostWebApi\\TryNextPostWebApi\\TryNextPostWebApi\\TryNextPostWebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Dell\\OneDrive\\Desktop\\19062-026\\TryNextPostWebApi19062026_afterjwtand log\\TryNextPostWebApi\\TryNextPostWebApi\\TryNextPostWebApi.csproj",
+        "projectUniqueName": "C:\\Users\\Dell\\OneDrive\\Desktop\\19062-026\\updated code trynextpost\\TryNextPostWebApi\\TryNextPostWebApi\\TryNextPostWebApi\\TryNextPostWebApi.csproj",
         "projectName": "TryNextPostWebApi",
-        "projectPath": "C:\\Users\\Dell\\OneDrive\\Desktop\\19062-026\\TryNextPostWebApi19062026_afterjwtand log\\TryNextPostWebApi\\TryNextPostWebApi\\TryNextPostWebApi.csproj",
+        "projectPath": "C:\\Users\\Dell\\OneDrive\\Desktop\\19062-026\\updated code trynextpost\\TryNextPostWebApi\\TryNextPostWebApi\\TryNextPostWebApi\\TryNextPostWebApi.csproj",
         "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Dell\\OneDrive\\Desktop\\19062-026\\TryNextPostWebApi19062026_afterjwtand log\\TryNextPostWebApi\\TryNextPostWebApi\\obj\\",
+        "outputPath": "C:\\Users\\Dell\\OneDrive\\Desktop\\19062-026\\updated code trynextpost\\TryNextPostWebApi\\TryNextPostWebApi\\TryNextPostWebApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -116,7 +116,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.300/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.301/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.AspNetCore": "(,10.0.32767]",
             "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",

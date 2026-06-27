@@ -217,12 +217,13 @@ namespace TryNextPostWebApi.Notifications
             };
 
             mailMessage.To.Add(email);
-
+            //====================start if i have to send main on cc and bcc so i can used these 2 functions ===================================
             //if (!string.IsNullOrWhiteSpace(mailSettings.CCMailAddress))
             //    mailMessage.CC.Add(mailSettings.CCMailAddress);
 
             //if (!string.IsNullOrWhiteSpace(mailSettings.BCCMailAddress))
             //    mailMessage.Bcc.Add(mailSettings.BCCMailAddress);
+            //====================end if i have to send main on cc and bcc so i can used these 2 functions ===================================
 
             await smtpClient.SendMailAsync(mailMessage);
             return new Tuple<int,string>(1, "Mail Sent Successfully");

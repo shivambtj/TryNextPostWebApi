@@ -170,6 +170,22 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "TryNextPostWebApi.Controllers.MenueItemMasterController",
+    "Method": "SaveMenueData",
+    "RelativePath": "api/MenueItemMaster/SaveMenueData",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "menueItemMasterDto",
+        "Type": "TryNextPostWebApi.Dto.MenueItemMasterDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "TryNextPostWebApi.Controllers.RoleMasterController",
     "Method": "GetAllData",
     "RelativePath": "api/RoleMaster/getAllData",

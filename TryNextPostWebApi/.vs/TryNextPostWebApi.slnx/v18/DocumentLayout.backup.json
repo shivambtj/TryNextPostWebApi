@@ -1,26 +1,50 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Dell\\OneDrive\\Desktop\\19062-026\\TryNextPostWebApi19062026_afterjwtand log\\TryNextPostWebApi\\",
+  "WorkspaceRootPath": "C:\\Users\\Dell\\OneDrive\\Desktop\\19062-026\\updated code trynextpost\\TryNextPostWebApi\\TryNextPostWebApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5BE69DFC-1231-59FE-9298-9C071785AAC6}|TryNextPostWebApi\\TryNextPostWebApi.csproj|c:\\users\\dell\\onedrive\\desktop\\19062-026\\trynextpostwebapi19062026_afterjwtand log\\trynextpostwebapi\\trynextpostwebapi\\services\\mailnotificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5BE69DFC-1231-59FE-9298-9C071785AAC6}|TryNextPostWebApi\\TryNextPostWebApi.csproj|solutionrelative:trynextpostwebapi\\services\\mailnotificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5BE69DFC-1231-59FE-9298-9C071785AAC6}|TryNextPostWebApi\\TryNextPostWebApi.csproj|c:\\users\\dell\\onedrive\\desktop\\19062-026\\updated code trynextpost\\trynextpostwebapi\\trynextpostwebapi\\trynextpostwebapi\\services\\menueitemmasterservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BE69DFC-1231-59FE-9298-9C071785AAC6}|TryNextPostWebApi\\TryNextPostWebApi.csproj|solutionrelative:trynextpostwebapi\\services\\menueitemmasterservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5BE69DFC-1231-59FE-9298-9C071785AAC6}|TryNextPostWebApi\\TryNextPostWebApi.csproj|c:\\users\\dell\\onedrive\\desktop\\19062-026\\trynextpostwebapi19062026_afterjwtand log\\trynextpostwebapi\\trynextpostwebapi\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5BE69DFC-1231-59FE-9298-9C071785AAC6}|TryNextPostWebApi\\TryNextPostWebApi.csproj|solutionrelative:trynextpostwebapi\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5BE69DFC-1231-59FE-9298-9C071785AAC6}|TryNextPostWebApi\\TryNextPostWebApi.csproj|c:\\users\\dell\\onedrive\\desktop\\19062-026\\updated code trynextpost\\trynextpostwebapi\\trynextpostwebapi\\trynextpostwebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BE69DFC-1231-59FE-9298-9C071785AAC6}|TryNextPostWebApi\\TryNextPostWebApi.csproj|solutionrelative:trynextpostwebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5BE69DFC-1231-59FE-9298-9C071785AAC6}|TryNextPostWebApi\\TryNextPostWebApi.csproj|c:\\users\\dell\\onedrive\\desktop\\19062-026\\trynextpostwebapi19062026_afterjwtand log\\trynextpostwebapi\\trynextpostwebapi\\iservices\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5BE69DFC-1231-59FE-9298-9C071785AAC6}|TryNextPostWebApi\\TryNextPostWebApi.csproj|solutionrelative:trynextpostwebapi\\iservices\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5BE69DFC-1231-59FE-9298-9C071785AAC6}|TryNextPostWebApi\\TryNextPostWebApi.csproj|c:\\users\\dell\\onedrive\\desktop\\19062-026\\updated code trynextpost\\trynextpostwebapi\\trynextpostwebapi\\trynextpostwebapi\\entities\\usermaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BE69DFC-1231-59FE-9298-9C071785AAC6}|TryNextPostWebApi\\TryNextPostWebApi.csproj|solutionrelative:trynextpostwebapi\\entities\\usermaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5BE69DFC-1231-59FE-9298-9C071785AAC6}|TryNextPostWebApi\\TryNextPostWebApi.csproj|c:\\users\\dell\\onedrive\\desktop\\19062-026\\trynextpostwebapi19062026_afterjwtand log\\trynextpostwebapi\\trynextpostwebapi\\trynextpostwebapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{5BE69DFC-1231-59FE-9298-9C071785AAC6}|TryNextPostWebApi\\TryNextPostWebApi.csproj|solutionrelative:trynextpostwebapi\\trynextpostwebapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{5BE69DFC-1231-59FE-9298-9C071785AAC6}|TryNextPostWebApi\\TryNextPostWebApi.csproj|c:\\users\\dell\\onedrive\\desktop\\19062-026\\updated code trynextpost\\trynextpostwebapi\\trynextpostwebapi\\trynextpostwebapi\\entities\\rolemaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BE69DFC-1231-59FE-9298-9C071785AAC6}|TryNextPostWebApi\\TryNextPostWebApi.csproj|solutionrelative:trynextpostwebapi\\entities\\rolemaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5BE69DFC-1231-59FE-9298-9C071785AAC6}|TryNextPostWebApi\\TryNextPostWebApi.csproj|c:\\users\\dell\\onedrive\\desktop\\19062-026\\trynextpostwebapi19062026_afterjwtand log\\trynextpostwebapi\\trynextpostwebapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5BE69DFC-1231-59FE-9298-9C071785AAC6}|TryNextPostWebApi\\TryNextPostWebApi.csproj|solutionrelative:trynextpostwebapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5BE69DFC-1231-59FE-9298-9C071785AAC6}|TryNextPostWebApi\\TryNextPostWebApi.csproj|c:\\users\\dell\\onedrive\\desktop\\19062-026\\updated code trynextpost\\trynextpostwebapi\\trynextpostwebapi\\trynextpostwebapi\\entities\\menueitemmaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BE69DFC-1231-59FE-9298-9C071785AAC6}|TryNextPostWebApi\\TryNextPostWebApi.csproj|solutionrelative:trynextpostwebapi\\entities\\menueitemmaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BE69DFC-1231-59FE-9298-9C071785AAC6}|TryNextPostWebApi\\TryNextPostWebApi.csproj|c:\\users\\dell\\onedrive\\desktop\\19062-026\\updated code trynextpost\\trynextpostwebapi\\trynextpostwebapi\\trynextpostwebapi\\entities\\mailsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BE69DFC-1231-59FE-9298-9C071785AAC6}|TryNextPostWebApi\\TryNextPostWebApi.csproj|solutionrelative:trynextpostwebapi\\entities\\mailsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BE69DFC-1231-59FE-9298-9C071785AAC6}|TryNextPostWebApi\\TryNextPostWebApi.csproj|c:\\users\\dell\\onedrive\\desktop\\19062-026\\updated code trynextpost\\trynextpostwebapi\\trynextpostwebapi\\trynextpostwebapi\\iservices\\imenueitemmasterservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BE69DFC-1231-59FE-9298-9C071785AAC6}|TryNextPostWebApi\\TryNextPostWebApi.csproj|solutionrelative:trynextpostwebapi\\iservices\\imenueitemmasterservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BE69DFC-1231-59FE-9298-9C071785AAC6}|TryNextPostWebApi\\TryNextPostWebApi.csproj|c:\\users\\dell\\onedrive\\desktop\\19062-026\\updated code trynextpost\\trynextpostwebapi\\trynextpostwebapi\\trynextpostwebapi\\dto\\menueitemmasterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BE69DFC-1231-59FE-9298-9C071785AAC6}|TryNextPostWebApi\\TryNextPostWebApi.csproj|solutionrelative:trynextpostwebapi\\dto\\menueitemmasterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BE69DFC-1231-59FE-9298-9C071785AAC6}|TryNextPostWebApi\\TryNextPostWebApi.csproj|c:\\users\\dell\\onedrive\\desktop\\19062-026\\updated code trynextpost\\trynextpostwebapi\\trynextpostwebapi\\trynextpostwebapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5BE69DFC-1231-59FE-9298-9C071785AAC6}|TryNextPostWebApi\\TryNextPostWebApi.csproj|solutionrelative:trynextpostwebapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BE69DFC-1231-59FE-9298-9C071785AAC6}|TryNextPostWebApi\\TryNextPostWebApi.csproj|c:\\users\\dell\\onedrive\\desktop\\19062-026\\updated code trynextpost\\trynextpostwebapi\\trynextpostwebapi\\trynextpostwebapi\\controllers\\menueitemmastercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BE69DFC-1231-59FE-9298-9C071785AAC6}|TryNextPostWebApi\\TryNextPostWebApi.csproj|solutionrelative:trynextpostwebapi\\controllers\\menueitemmastercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BE69DFC-1231-59FE-9298-9C071785AAC6}|TryNextPostWebApi\\TryNextPostWebApi.csproj|c:\\users\\dell\\onedrive\\desktop\\19062-026\\updated code trynextpost\\trynextpostwebapi\\trynextpostwebapi\\trynextpostwebapi\\controllers\\rolemastercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BE69DFC-1231-59FE-9298-9C071785AAC6}|TryNextPostWebApi\\TryNextPostWebApi.csproj|solutionrelative:trynextpostwebapi\\controllers\\rolemastercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,75 +54,156 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IMenueItemMasterService.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\OneDrive\\Desktop\\19062-026\\updated code trynextpost\\TryNextPostWebApi\\TryNextPostWebApi\\TryNextPostWebApi\\IServices\\IMenueItemMasterService.cs",
+              "RelativeDocumentMoniker": "TryNextPostWebApi\\IServices\\IMenueItemMasterService.cs",
+              "ToolTip": "C:\\Users\\Dell\\OneDrive\\Desktop\\19062-026\\updated code trynextpost\\TryNextPostWebApi\\TryNextPostWebApi\\TryNextPostWebApi\\IServices\\IMenueItemMasterService.cs",
+              "RelativeToolTip": "TryNextPostWebApi\\IServices\\IMenueItemMasterService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-27T06:20:43.32Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MenueItemMasterService.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\OneDrive\\Desktop\\19062-026\\updated code trynextpost\\TryNextPostWebApi\\TryNextPostWebApi\\TryNextPostWebApi\\Services\\MenueItemMasterService.cs",
+              "RelativeDocumentMoniker": "TryNextPostWebApi\\Services\\MenueItemMasterService.cs",
+              "ToolTip": "C:\\Users\\Dell\\OneDrive\\Desktop\\19062-026\\updated code trynextpost\\TryNextPostWebApi\\TryNextPostWebApi\\TryNextPostWebApi\\Services\\MenueItemMasterService.cs",
+              "RelativeToolTip": "TryNextPostWebApi\\Services\\MenueItemMasterService.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAqwEwAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-27T06:20:07.958Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MenueItemMasterDto.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\OneDrive\\Desktop\\19062-026\\updated code trynextpost\\TryNextPostWebApi\\TryNextPostWebApi\\TryNextPostWebApi\\Dto\\MenueItemMasterDto.cs",
+              "RelativeDocumentMoniker": "TryNextPostWebApi\\Dto\\MenueItemMasterDto.cs",
+              "ToolTip": "C:\\Users\\Dell\\OneDrive\\Desktop\\19062-026\\updated code trynextpost\\TryNextPostWebApi\\TryNextPostWebApi\\TryNextPostWebApi\\Dto\\MenueItemMasterDto.cs",
+              "RelativeToolTip": "TryNextPostWebApi\\Dto\\MenueItemMasterDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-27T06:28:37.628Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MenueItemMasterController.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\OneDrive\\Desktop\\19062-026\\updated code trynextpost\\TryNextPostWebApi\\TryNextPostWebApi\\TryNextPostWebApi\\Controllers\\MenueItemMasterController.cs",
+              "RelativeDocumentMoniker": "TryNextPostWebApi\\Controllers\\MenueItemMasterController.cs",
+              "ToolTip": "C:\\Users\\Dell\\OneDrive\\Desktop\\19062-026\\updated code trynextpost\\TryNextPostWebApi\\TryNextPostWebApi\\TryNextPostWebApi\\Controllers\\MenueItemMasterController.cs",
+              "RelativeToolTip": "TryNextPostWebApi\\Controllers\\MenueItemMasterController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABUAAABdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-27T06:56:54.741Z",
+              "IsPinned": true
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "TryNextPostWebApi",
-              "DocumentMoniker": "C:\\Users\\Dell\\OneDrive\\Desktop\\19062-026\\TryNextPostWebApi19062026_afterjwtand log\\TryNextPostWebApi\\TryNextPostWebApi\\TryNextPostWebApi.csproj",
-              "RelativeDocumentMoniker": "TryNextPostWebApi\\TryNextPostWebApi.csproj",
-              "ToolTip": "C:\\Users\\Dell\\OneDrive\\Desktop\\19062-026\\TryNextPostWebApi19062026_afterjwtand log\\TryNextPostWebApi\\TryNextPostWebApi\\TryNextPostWebApi.csproj",
-              "RelativeToolTip": "TryNextPostWebApi\\TryNextPostWebApi.csproj",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\OneDrive\\Desktop\\19062-026\\updated code trynextpost\\TryNextPostWebApi\\TryNextPostWebApi\\TryNextPostWebApi\\Program.cs",
+              "RelativeDocumentMoniker": "TryNextPostWebApi\\Program.cs",
+              "ToolTip": "C:\\Users\\Dell\\OneDrive\\Desktop\\19062-026\\updated code trynextpost\\TryNextPostWebApi\\TryNextPostWebApi\\TryNextPostWebApi\\Program.cs",
+              "RelativeToolTip": "TryNextPostWebApi\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-06-26T11:49:38.259Z",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-27T10:04:24.75Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "IAuthService.cs",
-              "DocumentMoniker": "C:\\Users\\Dell\\OneDrive\\Desktop\\19062-026\\TryNextPostWebApi19062026_afterjwtand log\\TryNextPostWebApi\\TryNextPostWebApi\\IServices\\IAuthService.cs",
-              "RelativeDocumentMoniker": "TryNextPostWebApi\\IServices\\IAuthService.cs",
-              "ToolTip": "C:\\Users\\Dell\\OneDrive\\Desktop\\19062-026\\TryNextPostWebApi19062026_afterjwtand log\\TryNextPostWebApi\\TryNextPostWebApi\\IServices\\IAuthService.cs",
-              "RelativeToolTip": "TryNextPostWebApi\\IServices\\IAuthService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABKAAAAAAAAAA==",
+              "Title": "UserMaster.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\OneDrive\\Desktop\\19062-026\\updated code trynextpost\\TryNextPostWebApi\\TryNextPostWebApi\\TryNextPostWebApi\\Entities\\UserMaster.cs",
+              "RelativeDocumentMoniker": "TryNextPostWebApi\\Entities\\UserMaster.cs",
+              "ToolTip": "C:\\Users\\Dell\\OneDrive\\Desktop\\19062-026\\updated code trynextpost\\TryNextPostWebApi\\TryNextPostWebApi\\TryNextPostWebApi\\Entities\\UserMaster.cs",
+              "RelativeToolTip": "TryNextPostWebApi\\Entities\\UserMaster.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-26T11:32:54.739Z",
+              "WhenOpened": "2026-06-27T10:01:07.938Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MailNotificationService.cs",
-              "DocumentMoniker": "C:\\Users\\Dell\\OneDrive\\Desktop\\19062-026\\TryNextPostWebApi19062026_afterjwtand log\\TryNextPostWebApi\\TryNextPostWebApi\\Services\\MailNotificationService.cs",
-              "RelativeDocumentMoniker": "TryNextPostWebApi\\Services\\MailNotificationService.cs",
-              "ToolTip": "C:\\Users\\Dell\\OneDrive\\Desktop\\19062-026\\TryNextPostWebApi19062026_afterjwtand log\\TryNextPostWebApi\\TryNextPostWebApi\\Services\\MailNotificationService.cs",
-              "RelativeToolTip": "TryNextPostWebApi\\Services\\MailNotificationService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIYAAABWAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "RoleMaster.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\OneDrive\\Desktop\\19062-026\\updated code trynextpost\\TryNextPostWebApi\\TryNextPostWebApi\\TryNextPostWebApi\\Entities\\RoleMaster.cs",
+              "RelativeDocumentMoniker": "TryNextPostWebApi\\Entities\\RoleMaster.cs",
+              "ToolTip": "C:\\Users\\Dell\\OneDrive\\Desktop\\19062-026\\updated code trynextpost\\TryNextPostWebApi\\TryNextPostWebApi\\TryNextPostWebApi\\Entities\\RoleMaster.cs",
+              "RelativeToolTip": "TryNextPostWebApi\\Entities\\RoleMaster.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-26T10:30:19.533Z",
+              "WhenOpened": "2026-06-27T10:00:53.619Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AuthService.cs",
-              "DocumentMoniker": "C:\\Users\\Dell\\OneDrive\\Desktop\\19062-026\\TryNextPostWebApi19062026_afterjwtand log\\TryNextPostWebApi\\TryNextPostWebApi\\Services\\AuthService.cs",
-              "RelativeDocumentMoniker": "TryNextPostWebApi\\Services\\AuthService.cs",
-              "ToolTip": "C:\\Users\\Dell\\OneDrive\\Desktop\\19062-026\\TryNextPostWebApi19062026_afterjwtand log\\TryNextPostWebApi\\TryNextPostWebApi\\Services\\AuthService.cs",
-              "RelativeToolTip": "TryNextPostWebApi\\Services\\AuthService.cs",
-              "ViewState": "AgIAAHsAAAAAAAAAAAAUwKEAAABJAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "MailSettings.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\OneDrive\\Desktop\\19062-026\\updated code trynextpost\\TryNextPostWebApi\\TryNextPostWebApi\\TryNextPostWebApi\\Entities\\MailSettings.cs",
+              "RelativeDocumentMoniker": "TryNextPostWebApi\\Entities\\MailSettings.cs",
+              "ToolTip": "C:\\Users\\Dell\\OneDrive\\Desktop\\19062-026\\updated code trynextpost\\TryNextPostWebApi\\TryNextPostWebApi\\TryNextPostWebApi\\Entities\\MailSettings.cs",
+              "RelativeToolTip": "TryNextPostWebApi\\Entities\\MailSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-26T10:29:33.413Z",
+              "WhenOpened": "2026-06-27T09:59:01.636Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Users\\Dell\\OneDrive\\Desktop\\19062-026\\TryNextPostWebApi19062026_afterjwtand log\\TryNextPostWebApi\\TryNextPostWebApi\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "TryNextPostWebApi\\Controllers\\AuthController.cs",
-              "ToolTip": "C:\\Users\\Dell\\OneDrive\\Desktop\\19062-026\\TryNextPostWebApi19062026_afterjwtand log\\TryNextPostWebApi\\TryNextPostWebApi\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "TryNextPostWebApi\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAAAgBAAAAAAAAAAAowBgBAAAQAAAAAAAAAA==",
+              "Title": "MenueItemMaster.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\OneDrive\\Desktop\\19062-026\\updated code trynextpost\\TryNextPostWebApi\\TryNextPostWebApi\\TryNextPostWebApi\\Entities\\MenueItemMaster.cs",
+              "RelativeDocumentMoniker": "TryNextPostWebApi\\Entities\\MenueItemMaster.cs",
+              "ToolTip": "C:\\Users\\Dell\\OneDrive\\Desktop\\19062-026\\updated code trynextpost\\TryNextPostWebApi\\TryNextPostWebApi\\TryNextPostWebApi\\Entities\\MenueItemMaster.cs",
+              "RelativeToolTip": "TryNextPostWebApi\\Entities\\MenueItemMaster.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-26T10:29:15.066Z",
+              "WhenOpened": "2026-06-27T09:56:03.435Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Dell\\OneDrive\\Desktop\\19062-026\\updated code trynextpost\\TryNextPostWebApi\\TryNextPostWebApi\\TryNextPostWebApi\\appsettings.json",
+              "RelativeDocumentMoniker": "TryNextPostWebApi\\appsettings.json",
+              "ToolTip": "C:\\Users\\Dell\\OneDrive\\Desktop\\19062-026\\updated code trynextpost\\TryNextPostWebApi\\TryNextPostWebApi\\TryNextPostWebApi\\appsettings.json",
+              "RelativeToolTip": "TryNextPostWebApi\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAACBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-06-27T09:12:15.495Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "RoleMasterController.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\OneDrive\\Desktop\\19062-026\\updated code trynextpost\\TryNextPostWebApi\\TryNextPostWebApi\\TryNextPostWebApi\\Controllers\\RoleMasterController.cs",
+              "RelativeDocumentMoniker": "TryNextPostWebApi\\Controllers\\RoleMasterController.cs",
+              "ToolTip": "C:\\Users\\Dell\\OneDrive\\Desktop\\19062-026\\updated code trynextpost\\TryNextPostWebApi\\TryNextPostWebApi\\TryNextPostWebApi\\Controllers\\RoleMasterController.cs",
+              "RelativeToolTip": "TryNextPostWebApi\\Controllers\\RoleMasterController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwDEAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-27T07:07:12.586Z",
               "EditorCaption": ""
             }
           ]

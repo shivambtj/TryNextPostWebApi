@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace TryNextPostWebApi.Entities
 {
-    [Table("Role_Master")]
+    [Table("ROLE_MASTER")]
     public class RoleMaster
     {
         [Key]

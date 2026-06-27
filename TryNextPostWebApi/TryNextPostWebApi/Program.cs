@@ -60,6 +60,7 @@ builder.Services.AddScoped<ExcelLoginLogger>();
 builder.Services.AddScoped<INotificationService, MailNotificationService>();
 builder.Services.AddScoped<IRoleMasterService, RoleMasterService>();
 builder.Services.AddScoped<IMailSettingsService,  MailSettingsService>();
+builder.Services.AddScoped<IMenueItemMasterService, MenueItemMasterService>();
 //====================end services used in projects=============================================================
 builder.Services.AddHttpContextAccessor();
 var app = builder.Build();

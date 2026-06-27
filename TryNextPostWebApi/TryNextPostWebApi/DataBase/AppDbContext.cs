@@ -9,5 +9,6 @@ namespace TryNextPostWebApi.DataBase
         public DbSet<UserMaster> UserMasters { get; set; }
         public DbSet<MailSettings> MailSettings { get; set; }
         public DbSet<RoleMaster> RoleMasters { get; set; }
+        public DbSet<MenueItemMaster> MenueItemMaster { get; set; }
     }
 }

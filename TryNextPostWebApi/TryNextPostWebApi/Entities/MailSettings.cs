@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace TryNextPostWebApi.Entities
 {
-    [Table("Mail_Settings")]
+    [Table("MAIL_SETTINGS")]
     public class MailSettings
     {
         [Key]
