@@ -95,7 +95,7 @@ namespace TryNextPostWebApi.Controllers
                     return BadRequest(new
                     {
                         success = false,
-                        message = "user data not found"
+                        message = result.Item2
                     });
                 }
                 return Ok(new

@@ -171,6 +171,48 @@
   },
   {
     "ContainingType": "TryNextPostWebApi.Controllers.MenueItemMasterController",
+    "Method": "getAllMenueData",
+    "RelativePath": "api/MenueItemMaster/getAllMenueData",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TryNextPostWebApi.Controllers.MenueItemMasterController",
+    "Method": "GetMenueById",
+    "RelativePath": "api/MenueItemMaster/GetMenueById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TryNextPostWebApi.Controllers.MenueItemMasterController",
+    "Method": "removeMenuById",
+    "RelativePath": "api/MenueItemMaster/removeMenuById",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TryNextPostWebApi.Controllers.MenueItemMasterController",
     "Method": "SaveMenueData",
     "RelativePath": "api/MenueItemMaster/SaveMenueData",
     "HttpMethod": "POST",
@@ -180,6 +222,96 @@
       {
         "Name": "menueItemMasterDto",
         "Type": "TryNextPostWebApi.Dto.MenueItemMasterDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TryNextPostWebApi.Controllers.MenueItemMasterController",
+    "Method": "updateMenueData",
+    "RelativePath": "api/MenueItemMaster/updateMenueData",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "menueItemMasterDto",
+        "Type": "TryNextPostWebApi.Dto.MenueItemMasterDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TryNextPostWebApi.Controllers.Order.OrderTypeMasterController",
+    "Method": "GetAllOrderTypeMasterData",
+    "RelativePath": "api/OrderTypeMaster/GetAllOrderTypeMasterData",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TryNextPostWebApi.Controllers.Order.OrderTypeMasterController",
+    "Method": "GetOrderTypeMasterDataById",
+    "RelativePath": "api/OrderTypeMaster/GetOrderTypeMasterDataById/{OrderTypeId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "OrderTypeId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TryNextPostWebApi.Controllers.Order.OrderTypeMasterController",
+    "Method": "RemoveOrderDataById",
+    "RelativePath": "api/OrderTypeMaster/RemoveOrderDataById/{OrderTypeId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "OrderTypeId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TryNextPostWebApi.Controllers.Order.OrderTypeMasterController",
+    "Method": "SaveOrderTypeMasterData",
+    "RelativePath": "api/OrderTypeMaster/SaveOrderTypeMasterData",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "orderTypeMasterDto",
+        "Type": "TryNextPostWebApi.Dto.Order.OrderTypeMasterDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TryNextPostWebApi.Controllers.Order.OrderTypeMasterController",
+    "Method": "UpdateOrderTypeMasterData",
+    "RelativePath": "api/OrderTypeMaster/UpdateOrderTypeMasterData",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "OrderTypeDto",
+        "Type": "TryNextPostWebApi.Dto.Order.OrderTypeMasterDto",
         "IsRequired": true
       }
     ],

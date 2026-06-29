@@ -65,18 +65,77 @@ namespace TryNextPostWebApi.Services
                 return new Tuple<int, string>(-1, ex.Message);
             }
         }
-        //public async Task<int,string> GetMenueById(int id)
-        //{
-        //    try
-        //    {
-        //        var result = await _appDbContext.MenueItemMaster.FirstOrDefaultAsync(x=>x.)
-        //        return new Tuple<int, string>(1, result);
-        //    }
-        //    catch(Exception ex)
-        //    {
-        //        return new Tuple<int, string>(-1, ex.Message);
-        //    }
-        //}
+        public async Task<Tuple<int, MenueItemMasterDto>> GetMenueById(int id)
+        {
+            try
+            {
+                var result = await _appDbContext.MenueItemMaster.AsNoTracking().Where(x => x.MenueItemId == id)
+                    .Select(x => new MenueItemMasterDto
+                {
+                    MenueItemId = x.MenueItemId,
+                    ParentId=x.ParentId,
+                    Url=x.Url,
+                    Title=x.Title,
+                    Description=x.Description,
+                    CssClass=x.CssClass,
+                    CreatedBy=x.CreatedBy,
+                    CreatedOn=x.CreatedOn
+                }).FirstOrDefaultAsync();
+                if(result == null)
+                {
+                    return new Tuple<int, MenueItemMasterDto>(0, null);
+                }
+                return new Tuple<int, MenueItemMasterDto>(1, result);
+            }
+            catch (Exception ex)
+            {
+                return new Tuple<int, MenueItemMasterDto>(-1, null);
+            }
+        }
+        public async Task<Tuple<int,List<MenueItemMasterDto>>> getAllMenueData()
+        {
+            try
+            {
+                var menueItemData = await _appDbContext.MenueItemMaster.Select(x => new MenueItemMasterDto
+                {
+                    MenueItemId = x.MenueItemId,
+                    ParentId = x.ParentId,
+                    Url = x.Url,
+                    Title = x.Title,
+                    Description = x.Description,
+                    CssClass = x.CssClass,
+                    CreatedBy = x.CreatedBy,
+                    CreatedOn = x.CreatedOn
+                }).ToListAsync();
+                if(menueItemData==null)
+                {
+                    return new Tuple<int, List<MenueItemMasterDto>>(0, null);
+                }
+                return new Tuple<int, List<MenueItemMasterDto>>(1, menueItemData);
+            }
+            catch(Exception ex)
+            {
+                return new Tuple<int, List<MenueItemMasterDto>>(-1, null);
+            }
+        }
+        public async Task<Tuple<int,string>> removeMenuById(int id)
+        {
+            try
+            {
+                var exitMenuId = await _appDbContext.MenueItemMaster.FirstOrDefaultAsync(x => x.MenueItemId == id);
+                if(exitMenuId==null)
+                {
+                    return new Tuple<int, string>(0, "data not found");
+                }
+                _appDbContext.Remove(exitMenuId);
+                await _appDbContext.SaveChangesAsync();
+                return new Tuple<int, string>(1, "Menu data removed Sucessfully");
+            }
+            catch(Exception ex)
+            {
+                return new Tuple<int, string>(-1, ex.Message);
+            }
+        }
     }
 }
 

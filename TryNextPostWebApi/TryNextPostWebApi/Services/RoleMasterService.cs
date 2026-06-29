@@ -91,7 +91,7 @@ namespace TryNextPostWebApi.Services
             }
             catch (Exception ex)
             {
-                return new Tuple<int, RoleMasterDto>(1, new RoleMasterDto());
+                return new Tuple<int, RoleMasterDto>(1, null);
             }
         }
         //===========================end role data access by id ================================

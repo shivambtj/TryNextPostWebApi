@@ -1,11 +1,13 @@
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
-using TryNextPostWebApi.DataBase;
-using TryNextPostWebApi.IServices;
-using TryNextPostWebApi.Services;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
+using TryNextPostWebApi.DataBase;
+using TryNextPostWebApi.IServices;
+using TryNextPostWebApi.IServices.Order;
 using TryNextPostWebApi.Notifications;
+using TryNextPostWebApi.Services;
+using TryNextPostWebApi.Services.Order;
 //====================run api on browser ========================
 //=============https://localhost:7091/swagger ===================
 //======================end run api on browser ==================
@@ -61,6 +63,7 @@ builder.Services.AddScoped<INotificationService, MailNotificationService>();
 builder.Services.AddScoped<IRoleMasterService, RoleMasterService>();
 builder.Services.AddScoped<IMailSettingsService,  MailSettingsService>();
 builder.Services.AddScoped<IMenueItemMasterService, MenueItemMasterService>();
+builder.Services.AddScoped<IOrderTypeMasterService, OrderTypeMasterService>();
 //====================end services used in projects=============================================================
 builder.Services.AddHttpContextAccessor();
 var app = builder.Build();

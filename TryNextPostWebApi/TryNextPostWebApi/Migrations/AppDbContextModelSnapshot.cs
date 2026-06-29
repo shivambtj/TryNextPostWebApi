@@ -117,6 +117,34 @@ namespace TryNextPostWebApi.Migrations
                     b.ToTable("MENUE_ITEM_MASTER");
                 });
 
+            modelBuilder.Entity("TryNextPostWebApi.Entities.Order.OrderTypeMaster", b =>
+                {
+                    b.Property<long>("OrderTypeId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bigint");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<long>("OrderTypeId"));
+
+                    b.Property<string>("CreatedBy")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime?>("CreatedOn")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("OrderTypeName")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("UpdatedBy")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime?>("UpdatedOn")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("OrderTypeId");
+
+                    b.ToTable("ORDER_TYPE_MASTER");
+                });
+
             modelBuilder.Entity("TryNextPostWebApi.Entities.RoleMaster", b =>
                 {
                     b.Property<long>("RoleId")
@@ -225,6 +253,53 @@ namespace TryNextPostWebApi.Migrations
                     b.HasKey("UserId");
 
                     b.ToTable("USER_MASTER");
+                });
+
+            modelBuilder.Entity("TryNextPostWebApi.Entities.UserPermissionMaster", b =>
+                {
+                    b.Property<long>("UserPermissionId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bigint");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<long>("UserPermissionId"));
+
+                    b.Property<string>("Add")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(1)");
+
+                    b.Property<string>("CreatedBy")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime?>("CreatedOn")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Delete")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(1)");
+
+                    b.Property<string>("Edit")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(1)");
+
+                    b.Property<long>("MenuId")
+                        .HasColumnType("bigint");
+
+                    b.Property<long>("RoleId")
+                        .HasColumnType("bigint");
+
+                    b.Property<string>("UpdatedBy")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime?>("UpdatedOn")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("View")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(1)");
+
+                    b.HasKey("UserPermissionId");
+
+                    b.ToTable("USER_PERMISSSION_MASTER");
                 });
 #pragma warning restore 612, 618
         }

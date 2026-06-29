@@ -322,6 +322,213 @@
         }
       }
     },
+    "/api/MenueItemMaster/updateMenueData": {
+      "put": {
+        "tags": [
+          "MenueItemMaster"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MenueItemMasterDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MenueItemMasterDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/MenueItemMasterDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/MenueItemMaster/GetMenueById": {
+      "get": {
+        "tags": [
+          "MenueItemMaster"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/MenueItemMaster/getAllMenueData": {
+      "get": {
+        "tags": [
+          "MenueItemMaster"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/MenueItemMaster/removeMenuById": {
+      "delete": {
+        "tags": [
+          "MenueItemMaster"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/OrderTypeMaster/SaveOrderTypeMasterData": {
+      "post": {
+        "tags": [
+          "OrderTypeMaster"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/OrderTypeMasterDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/OrderTypeMasterDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/OrderTypeMasterDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/OrderTypeMaster/GetOrderTypeMasterDataById/{OrderTypeId}": {
+      "get": {
+        "tags": [
+          "OrderTypeMaster"
+        ],
+        "parameters": [
+          {
+            "name": "OrderTypeId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/OrderTypeMaster/UpdateOrderTypeMasterData": {
+      "put": {
+        "tags": [
+          "OrderTypeMaster"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/OrderTypeMasterDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/OrderTypeMasterDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/OrderTypeMasterDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/OrderTypeMaster/GetAllOrderTypeMasterData": {
+      "get": {
+        "tags": [
+          "OrderTypeMaster"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/OrderTypeMaster/RemoveOrderDataById/{OrderTypeId}": {
+      "delete": {
+        "tags": [
+          "OrderTypeMaster"
+        ],
+        "parameters": [
+          {
+            "name": "OrderTypeId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/RoleMaster/SaveRoleData": {
       "post": {
         "tags": [
@@ -561,6 +768,38 @@
         },
         "additionalProperties": false
       },
+      "OrderTypeMasterDto": {
+        "type": "object",
+        "properties": {
+          "orderTypeId": {
+            "type": "integer",
+            "format": "int64"
+          },
+          "orderTypeName": {
+            "type": "string",
+            "nullable": true
+          },
+          "createdBy": {
+            "type": "string",
+            "nullable": true
+          },
+          "createdOn": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "updatedBy": {
+            "type": "string",
+            "nullable": true
+          },
+          "updatedOn": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
       "RoleMasterDto": {
         "type": "object",
         "properties": {
@@ -708,6 +947,9 @@
     },
     {
       "name": "MenueItemMaster"
+    },
+    {
+      "name": "OrderTypeMaster"
     },
     {
       "name": "RoleMaster"

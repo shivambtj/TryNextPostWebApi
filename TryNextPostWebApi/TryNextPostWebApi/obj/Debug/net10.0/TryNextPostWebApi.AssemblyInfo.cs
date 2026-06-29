@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TryNextPostWebApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8dd99eac0b720bce970d2e65426d275b1125111a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+78f44bb769c189553af9c17631de7d53d5912a45")]
 [assembly: System.Reflection.AssemblyProductAttribute("TryNextPostWebApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TryNextPostWebApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
